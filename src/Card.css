@@ -1,0 +1,86 @@
+
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    position: relative;
+    border: 2px solid #000;
+    display: flex;
+    width: 20rem;
+    border-radius: 3rem 0rem 3rem 0rem ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+    background: radial-gradient(rgb(194, 165, 0));
+    animation: glow infinite 1s ease-in-out;
+  }
+  
+  @keyframes glow{
+    0%{
+        box-shadow: 1px 1px 5px 2px #3fff05;
+    }
+    50%{
+        box-shadow: 2px 2px 10px 4px #3fff05;
+    }
+    100%{
+        box-shadow: 3px 3px 15px 6px #3fff05;
+    }
+
+  }
+
+  .id {
+    position: absolute; 
+    right: -1.5rem;
+    top: -1.5rem; 
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: 3rem;
+    height: 3rem;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 100%;
+    border: #fffb00 solid 2px;
+  }
+  img{
+    border-radius: 10rem;
+    margin: 1rem;
+  }
+  
+
+
+.wholeCard{
+    position: relative;
+}
+
+
+.input{
+  text-align: center;
+  margin-top: 2rem ;
+}
+input{
+  padding: 1rem 2rem;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #000;
+  border-radius: 2rem;
+  
+}
+
+
+.error{
+  text-align: center;
+  margin-top: 5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
